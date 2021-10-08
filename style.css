@@ -114,13 +114,13 @@ body {
   width: calc(100% - 10%);
 }
 .date_time {
-  color: #5b9b21;
+  color: #8dc641;
 }
 .price {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  color: #5b9b21;
+  color: #8dc641;
 }
 
 .price_number-small {
@@ -132,9 +132,9 @@ body {
 }
 
 .container_term {
-  background-color: #fef2df;
-  border-top: 1px solid #ff9800;
-  border-bottom: 1px solid #ff9800;
+  background-color: #fef1de;
+  border-top: 1px solid #d0a348;
+  border-bottom: 1px solid #d0a348;
 }
 .term_item-light {
   color: #767676;
@@ -145,7 +145,7 @@ body {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
   padding: 0.1px 0;
-  background-color: #5b9b21;
+  background-color: #8dc641;
   color: #fff;
   border-radius: 3px;
 }

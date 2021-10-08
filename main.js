@@ -11,9 +11,10 @@ const refs = {
 
 refs.currentDateShort.textContent = moment().format("DD.MM");
 refs.termDateFirst.textContent = moment().format("DD.MM.YYYY");
-refs.termDateSecond.textContent = moment()
-  .add(1, "day")
-  .format("DD.MM.YYYY");
+refs.termDateSecond.textContent = moment().format("DD.MM.YYYY");
+// refs.termDateSecond.textContent = moment()
+//   .add(1, "day")
+//   .format("DD.MM.YYYY"); раскомментировать если нужно +1 день от начала
 refs.serialNumber.textContent = randomIntegerFromInterval(312312312, 987654321);
 
 function setTime() {
