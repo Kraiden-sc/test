@@ -20,7 +20,7 @@ public class test {
                         System.out.println(name + " ваш возвраст должен быть от 18 до 50 лет");
                     }
                 } catch (InputMismatchException t) {
-                    System.out.println("Принимаются только целочисленные значения");
+                    System.out.println("Принимаются только целочисленные значения 000");
                 }
             }
             }
