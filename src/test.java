@@ -7,7 +7,7 @@ public class test {
         System.out.println("Введите имя");
 
             String name = scanner.next();
-            if (name.length() < 2) {
+            if (name.length() < 3) {
                 System.out.println("Имя должно состоять минимум из 3х символов");
             } else {
                 System.out.println("Введите ваш возвраст");
