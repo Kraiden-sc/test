@@ -14,7 +14,7 @@ public class test {
                 try {
 
                     int age = scanner.nextInt();
-                    if (age > 18& age < 50) {
+                    if (age >=18& age < 50) {
                         System.out.println("Добро пожаловать " + name);
                     } else {
                         System.out.println(name + " ваш возвраст должен быть от 18 до 50 лет включительно");
